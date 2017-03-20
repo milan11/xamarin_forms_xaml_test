@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MainPage">
+
+  <ContentPage.Resources>
+    <!-- Problem A - begin -->
+    <ResourceDictionary>
+    </ResourceDictionary>
+    <!-- Problem A - end -->
+  </ContentPage.Resources>
+
+  <ListView>
+    <ListView.Footer>
+      <!-- Problem B - begin -->
+      <Label />
+      <!-- Problem B - end -->
+    </ListView.Footer>
+  </ListView>
+
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <!-- Problem C - begin -->      
+      <ColumnDefinition />
+      <!-- Problem C - end -->
+    </Grid.ColumnDefinitions>
+  </Grid>
+
+  <Label x:Name="label1" />
+</ContentPage>
